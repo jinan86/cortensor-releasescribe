@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OpenMinion local runtime state + config (may reference key env vars)
+.openminion/
+
+# API keys and credentials — NEVER commit these
+*.pem
+*.key
+.env
+.env.*
+*credentials*.json
+*secret*
+
+# Test / run artefacts
+.pytest_cache/
+*.log
+transcripts/
+fixtures/sample-repo/repo/
